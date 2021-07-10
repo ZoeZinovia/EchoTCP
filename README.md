@@ -16,7 +16,7 @@ There are only a few requirements for this project.
 
 * Go must be [installed](https://golang.org/dl/)
 * Go ROUTE and Go PATH must be configured according to your preferences. See [here](https://www.geeksforgeeks.org/golang-gopath-and-goroot/) for more information.
-* There are a few other Go library imports that should not require additional installations. 
+* There are a few other Go library imports, e.g. io, that do not require additional installations. 
 
 ### Installing and using
 
@@ -24,7 +24,7 @@ There are only a few requirements for this project.
 * Once the terminal windows are in the correct directories, you can compile the files by running ```go build echoServer.go``` and ```go build echoClient.go``` respectively.
 * Then the code can be run. Start by running the server side application: ```./echoServer```
 * Next, the client side application can be run: ```./echoClient```
-* The program will then wait for an input. You can type the message that you would like echoed. After typing the full message, signify the end of your input with the end of transmission signal: in MacOs it is ctrl-D. The echoed response will then appear. Below is an example:
+* The program will then wait for an input. You can type the message that you would like echoed. After typing the full message, signify the end of your input with the end of transmission signal: Ctrl-D. The echoed response will then appear. Below is an example:
 ```
 >> ./echoClient
 >> Hello there
