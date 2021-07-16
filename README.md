@@ -27,7 +27,7 @@ There are only a few requirements for this project.
 * The program will then wait for an input. You can type the message that you would like echoed. After typing the full message, signify the end of your input with the end of transmission signal: Ctrl-D. The echoed response will then appear. Below is an example:
 ```
 >> ./echoClient
->> Hello there
->> Hello there
+>> Hello world!
+>> Hello world!
 ```
 
